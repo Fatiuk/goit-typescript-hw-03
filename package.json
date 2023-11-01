@@ -1,11 +1,18 @@
 {
   "name": "typescript-homework-module-3",
   "version": "1.0.0",
-  "description": "",
+  "description": "Клас Student, який містить три властивості: name, age та grade. Замість того, щоб оголошувати ці властивості в тілі класу, потім у конструкторі, і нарешті надавати їм значення, напишіть скорочену ініціалізацію.\r ```ts\r class Student {\r   public name: string;\r   public age: number;\r   public grade: string;",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "@web/dev-server": "^0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
