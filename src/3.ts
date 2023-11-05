@@ -7,7 +7,6 @@
   Інтерфейс ISpellCaster повинен включати метод castSpell.
 */
 
-// реалізація класу Wizard
 interface ICharacter {
   name: string;
   level: number;
